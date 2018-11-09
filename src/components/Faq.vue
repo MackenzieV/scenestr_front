@@ -1,21 +1,15 @@
 <template>
-  <div class="home">
+  <div class="faq">
     <h1>{{ msg }}</h1>
-    <h2>This is the Scenestr App</h2>
   </div>
 </template>
 
 <script>
-import headerComponent from './components/Header.vue'
-import mainComponent from './components/Main.Vue'
-import footerComponent from './components/Footer.vue'
-
 export default {
-  name: 'Home',
-  components: {headerComponent, mainComponent, footerComponent},
+  name: 'Faq',
   data () {
     return {
-      msg: 'Scenestr'
+      msg: 'This is the FAQ component'
     }
   }
 }

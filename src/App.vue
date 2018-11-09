@@ -1,13 +1,14 @@
 <template>
   <div id="app">
-    <img src="http://scenestr.com.au/images/scenestr-logos/Hi-res/scenestrlogo-black-cmyk-300dpi.jpg">
     <router-view/>
   </div>
 </template>
 
 <script>
+import homeComponent from './components/Home.vue'
 export default {
-  name: 'App'
+  name: 'App',
+  components: {homeComponent}
 }
 </script>
 
