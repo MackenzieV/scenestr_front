@@ -2,13 +2,10 @@
   <div class="home">
     <h1>{{ msg }}</h1>
     <h2>This is the Scenestr App</h2>
-    
   </div>
 </template>
 
 <script>
-
-
 export default {
   name: 'home',
   data () {
