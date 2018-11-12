@@ -1,12 +1,13 @@
 <template>
   <div class="account">
     <h1>{{ msg }}</h1>
+
   </div>
 </template>
 
 <script>
 export default {
-  name: 'Account',
+  name: 'account',
   data () {
     return {
       msg: 'This is the account component'

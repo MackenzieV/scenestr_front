@@ -2,7 +2,11 @@
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue'
 import App from './App'
+import UIkit from 'uikit'
+import Icons from 'uikit/dist/js/uikit-icons'
 import router from './router'
+
+UIkit.use(Icons);
 
 Vue.config.productionTip = false
 

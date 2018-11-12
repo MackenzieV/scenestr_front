@@ -1,17 +1,16 @@
 <template>
-  <div class="nav">
+  <div class="Nav">
     <h1>{{ msg }}</h1>
+    <router-link to="Main">Back</router-link>
+    <router-link to="Account">Account</router-link>
+    <router-link to="Settings">Settings</router-link>
+    <router-link to="Faq">FAQ</router-link>
   </div>
 </template>
 
 <script>
-import accountComponent from './components/Account.vue'
-import settingsComponent from './components/Settings.vue'
-import faqComponent from './components/Faq.vue'
-
 export default {
   name: 'Nav',
-  components: {accountComponent, settingsComponent, faqComponent}
   data () {
     return {
       msg: 'This is the Nav component'

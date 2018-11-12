@@ -5,13 +5,10 @@
 </template>
 
 <script>
-import searchComponent from './components/Search.vue'
-import eventCreate from './components/EventCreate.vue'
 
 
 export default {
   name: 'Footer',
-  components: {searchComponent},
   data () {
     return {
       msg: 'this is the footer component'

@@ -1,15 +1,16 @@
 <template>
   <div class="faq">
     <h1>{{ msg }}</h1>
+
   </div>
 </template>
 
 <script>
 export default {
-  name: 'Faq',
+  name: 'faq',
   data () {
     return {
-      msg: 'This is the FAQ component'
+      msg: 'This is the faq component'
     }
   }
 }
